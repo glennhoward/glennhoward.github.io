@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Title to go here!</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, handheld" />
+  <link rel="stylesheet" type="text/css" href="css/enhanced.css" media="screen  and (min-width: 40.5em)" />
+  <!--[if (lt IE 9)&(!IEMobile)]>
+    <link rel="stylesheet" type="text/css" href="css/enhanced.css" />
+  <![endif]-->
+</head>
+<body>
+  <div id="header"></div>
+  <div id="content"></div>
+  <div id="footer"></div>
+
+
+  <script src="js/libs/jquery-1.9.1.js"></script>
+  <script src="js/libs/mustache.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Start of Header Template    -->
+  <script id="headerTpl" type="text/template">
+    {{#sections}}
+      <nav class="header">
+        <ul>
+          <li>{{{name}}}</li>
+        </ul>
+      </nav>
+    {{/sections}}
+  </script>
+
+  <!-- Start of Content Template    -->
+  <script id="contentTpl" type="text/template">
+    <article class="intro"></article>
+
+    <article class="aboutme">
+      <div class="container">
+        <div class="title">
+          <h4>{{sections.0.name}}</h4>
+        </div>
+        <div id="aboutme"></div>
+      </div>
+    </article>
+
+    <article class="education">
+      <div class="container">
+        <div class="title">
+          <h4>{{{sections.1.name}}}</h4>
+        </div>
+        <div id="education">
+        </div>
+      </div>
+    </article>
+
+    <article class="employment">
+      <div class="container">
+        <div class="title">
+          <h4>{{{sections.2.name}}}</h4>
+        </div>
+        <div id="employment">
+        </div>
+      </div>
+    </article>
+  </script>
+  <!-- End of Content Template    -->
+
+
+  <!-- Start of About Me Template    -->
+  <script id="aboutTpl" type="text/template">
+    {{#about}}
+      {{{para}}}
+    {{/about}}
+  </script>
+  <!-- End of About Me Template    -->
+
+
+  <!-- Start of Where I've Studied Template    -->
+  <script id="educationTpl" type="text/template">
+    {{#education}}
+      {{uniName}} - {{course}}, {{gradYear}}
+      <ul>
+        <li>
+          {{fyProject}}
+        </li>
+      </ul>
+    {{/education}}
+  </script>
+  <!-- End of Where I've Studied Template    -->
+
+
+  <!-- Start of Where I've Worked Template    -->
+  <script id="workTpl" type="text/template">
+    {{#employers}}
+      <strong>{{companyName}}</strong>, {{position}} - {{duration}}
+      {{#tasks}}
+        <ul>
+          <li>
+            {{item}}
+          </li>
+        </ul>
+      {{/tasks}}
+    {{/employers}}
+  </script>
+  <!-- End of Where I've Worked Template    -->
+
+  <!-- Start of Footer Template    -->
+  <script id="footerTpl" type="text/template">
+    <nav class="footer">
+      {{#footer}}
+      <div class="copyright">{{{copyright}}}</div>
+      <div class="contact-details">
+        &#9993; {{{email}}}
+        &#9743; {{{phone}}}
+      </div>
+      {{/footer}}
+    </nav>
+  </script>
+  <!-- End of Footer Template    -->
+
+</body>
+</html>

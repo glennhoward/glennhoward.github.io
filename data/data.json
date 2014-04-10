@@ -1,0 +1,121 @@
+{
+
+  "sections": [
+    { "name":"About Me" },
+    { "name":"Where I&apos;ve Studied" },
+    { "name":"Where I&apos;ve Worked" }
+  ],
+
+  "about": [
+    { "para":"I&apos;m an experienced software engineer, where I have specialized in developing and maintain the Store Platform at Gilt, using technologies such as Scala, Handlebars, Backbone, Node.js, LESS, CSS, jQuery and Javascript." },
+    { "para":"I&apos;ve also have had vast experience in writing test automation using a combination of Java, Python, WebDriver API, Scala and custom frameworks based around TestNG and JUnit." },
+    { "para":"I&apos;ve experience leading projects and managing releases, as well as managing offshore QA engineers. I&apos;ve worked within Agile and Waterfall development cycles." },
+    { "para":"I&apos;m extremely passionate about quality and ensuring that the user receives the best possible experience when using software that we provide them; I look at things from a user&apos;s point of view to help deliver on this." },
+    { "para":"I&apos;ve spent the last number of years working in quality and development roles to enable me to build a fundamental understanding of web practices and web technologies such as JavaScript. This learning has also enabled me to identify complex problems and solve this with creative solutions. I&apos;ve created a lot of security patches to Gilt.com to ensure user safety." },
+    { "para":"I&apos;ve experience leading multiple projects at once such as the engineering effort of Microsoft Office for Mac 2008 SP2 and the release of the monthly patch release of Microsoft Office 2004." }
+  ],
+
+  "education": [
+    {
+      "uniName":"Trinity College Dublin",
+      "course":"BSc. Computer Science",
+      "gradYear":"2007",
+      "fyProject": "Dynamic Web Pages - I created a RSS web system using PHP and MySQL to allow lecturers and student interactive on important course information like lecture changes, assignment date changes etc."
+    },
+    {
+      "uniName":"Dublin Institute of Technology",
+      "course":"Diploma in Computer Science",
+      "gradYear":"2003",
+      "fyProject": "Inventory Tracking System - I created an inventory system using ASP and SQL to allow companies keep track of hardware, software and allow management to create reports on inventory levels."
+    }
+  ],
+
+  "employers": [
+    {
+      "companyName":"Sohalo Inc.",
+      "position":"Senior QA Engineer",
+      "duration":"December 2013 to Present",
+      "tasks": [
+        { "item":"Implemented an automation framework to test the Sohalo API’s on a daily basis in Jenkins." },
+        { "item":"Expanded (planned and implemented) the aforementioned framework to run Selenium tests." },
+        { "item":"Integrated the php-webdriver bindings to replace the PHPUnit Selenium Extension, which contains better functionality and more flexibility." },
+        { "item":"Currently in the planning phase of implementing Test-Driven Development in the Software Development Life Cycle." }
+      ]
+    },
+    {
+      "companyName":"Mozilla",
+      "position":"Contributor to WebQA",
+      "duration":"February 2012 to February 2014",
+      "tasks": [
+        { "item":"Was owner of the WebQA Wiki Test suite." },
+        { "item":"Restructured the wiki project to match other WebQA project structures." },
+        { "item":"Develop automated tests for the WebQA Wiki site, https://github.com/mozilla/wiki-tests/." },
+        { "item":"Update and review documentation on the Mozilla QMO site." }
+      ]
+    },
+    {
+      "companyName":"Gilt Groupe",
+      "position":"Software Engineer",
+      "duration":"July 2011 to December 2013",
+      "tasks": [
+        { "item":"Planning and implementing new ways to drive traffic through the different stores applications on Gilt.com." },
+        { "item":"Implementing end-to-end features on Gilt.com such as the Shop By Age widget on the Kids store front." },
+        { "item":"Develop and maintain the existing store platform." },
+        { "item":"Automated testing of the store platform in the form of unit tests or front-end selenium tests." },
+        { "item":"Drove the automation pass rate from ~60% on 1 environment to over 90% across 3 environments (Local, Grid & Sauce)." },
+        { "item":"Investigate and fix any automation failures for the Business Operations project using innovative solutions. I recently implemented a new way to test our web services." },
+        { "item":"Manage the Business Operations project releases on a bi-weekly basis, which involves managing off-site QA engineers." },
+        { "item":"Assist team members with automation queries and best practices. I’m also a Mentor in the Gilt Mentoring program." },
+        { "item":"Continued development of automated tests for the Business Operations team, which required very quick turnaround." }
+      ]
+    },
+    {
+      "companyName":"NewBay",
+      "position":"Senior Test Engineer",
+      "duration":"December 2010 to July 2011"
+    },
+    {
+      "companyName":"Sage CRM",
+      "position":"QA Engineer",
+      "duration":"February 2010 to December 2010"
+    },
+    {
+      "companyName":"Microsoft",
+      "position":"International Project Engineer (Software Engineer)",
+      "duration":"December 2006 to February 2010"
+    },
+    {
+      "companyName":"Microsoft",
+      "position":"Software Test/Localization Engineer",
+      "duration":"March 2006 to December 2006"
+    },
+    {
+      "companyName":"Vodafone",
+      "position":"Product & Services Developer",
+      "duration":"March 2003 to March 2006"
+    },
+    {
+      "companyName":"Vodafone",
+      "position":"Customer Service Representative",
+      "duration":"July 2002 to March 2003"
+    },
+    {
+      "companyName":"Microsoft",
+      "position":"Senior Test Engineer",
+      "duration":"June 2000 to June 2001"
+    },
+    {
+      "companyName":"Microsoft",
+      "position":"Release Team Member",
+      "duration":"June 1999 to September 1999"
+    }
+  ],
+
+  "footer": [
+    {
+      "copyright":"&copy;2014 - Glenn Howard",
+      "email":"<a href=\"mailto:glennrphoward@gmail.com\">glennrphoward@gmail.com</a>",
+      "phone":"<a href=\"tel:+353861228781\">+353 86 1228781</a>"
+    }
+  ]
+}
