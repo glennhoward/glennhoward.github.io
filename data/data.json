@@ -72,32 +72,76 @@
     {
       "companyName":"NewBay",
       "position":"Senior Test Engineer",
-      "duration":"December 2010 to July 2011"
+      "duration":"December 2010 to July 2011",
+      "tasks": [
+        { "item":"Developed automated test suites for Mobile Telecoms web based systems." },
+        { "item":"Collaborated effectively across the business to ensure features were created and tested as per the customers request." },
+        { "item":"Was involved with the migration of our JIRA system, carrying out essential tasks within tight timelines." }
+      ]
     },
     {
       "companyName":"Sage CRM",
       "position":"QA Engineer",
-      "duration":"February 2010 to December 2010"
+      "duration":"February 2010 to December 2010",
+      "tasks": [
+        { "item":"Drove the initial effect of running Sage CRM Cloud Platform." },
+        { "item":"Participated in feature plans and owned the QA effort for core features." },
+        { "item":"Owned and Day to day testing of certain areas of Sage CRM such as Interactive Dashboard and Reports." },
+        { "item":"Investigated issue with Sage CRM installations across different platforms." },
+        { "item":"Responsible for maintaining the QA department’s VM farm." }
+      ]
     },
     {
       "companyName":"Microsoft",
       "position":"International Project Engineer (Software Engineer)",
-      "duration":"December 2006 to February 2010"
+      "duration":"December 2006 to February 2010",
+      "tasks": [
+        { "item":"Owned and drove Excel for Mac for the MacBU from a localization engineering perspective." },
+        { "item":"Optimized and improved weekly code base preparation from +4hrs down to 1.5hrs. " },
+        { "item":"Reviewed and provided technical input into feature specifications, identifying and prioritizing localizability requirements and pushing them upstream." },
+        { "item":"Identified, resolved and provided root cause analysis for Excel issues." },
+        { "item":"Led and drove the localization engineering effect for Office for Mac 2008 Service Pack 2." },
+        { "item":"Advocate for the local market customer in all areas of design, code and operations." },
+        { "item":"Collaborated effectively with Engineers and Program Managers across geographies, languages and cultures." },
+        { "item":"Owed and drove the localization engineering monthly service release for Office for Mac 2004 across 6 different languages." }
+      ]
     },
     {
       "companyName":"Microsoft",
       "position":"Software Test/Localization Engineer",
-      "duration":"March 2006 to December 2006"
+      "duration":"March 2006 to December 2006",
+      "tasks": [
+        { "item":"Reviewed and rewrote the test case management system with a more secure, reliable, customizable and user-friendly system." },
+        { "item":"Developed a statistics website to view reports on testing progress. This allowed management to track the teams progress from a single location." },
+        { "item":"Managed the localization of the microsoft.com marketing sites for the Encarta suite." },
+        { "item":"Worked with external localizers, managing the schedules, working with the Sub PM’s to review the marketing sites." },
+        { "item":"Coordinated the testing of the localized marking sites and tracking bugs." },
+        { "item":"Wrote test plans for different areas of the Microsoft Encarta suite." },
+        { "item":"Review all specs at ‘mid-stability’ and send feedback to the feature PM to make sure that International issues are represented prior to development stage." }
+      ]
     },
     {
       "companyName":"Vodafone",
-      "position":"Product & Services Developer",
-      "duration":"March 2003 to March 2006"
+      "position":"Product & Services Developer (Web Developer)",
+      "duration":"March 2003 to March 2006",
+      "tasks": [
+        { "item":"Developed web solutions (including creating graphics) from Marketing approved requests for Vodafone websites (Internal &amp; External)."},
+        { "item":"Developed, tested and deployed fixes to Vodafone live! (Vodafone’s Mobile Web portal) for any new/existing devices in the Vodafone range. " },
+        { "item":"Install, tested and deployed 3rd Party applications on the Vodafone live! Pre-Production/Test servers such as Google Search, Sky Sports and RTE News services." },
+        { "item":" Was Technology Lead for the Off-net Content Filter project which differentiated the content available to customers based on their age profile and device." },
+        { "item":"Collaborated effectively with my counterparts in the UK and Germany on Device handset profile issues that existed in the different Vodafone markets." }
+      ]
     },
     {
       "companyName":"Vodafone",
       "position":"Customer Service Representative",
-      "duration":"July 2002 to March 2003"
+      "duration":"July 2002 to March 2003",
+      "tasks": [
+        { "item":"Provided front line customer support by telephone or email/web." },
+        { "item":"Provided quick response support to customer inquiries and complaints." },
+        { "item":"Direct requests and unresolved issues to the designated resource." },
+        { "item":"Collaborated effectively with internal departments to ensure a satisfactory outcome for the customer." }
+      ]
     },
     {
       "companyName":"Microsoft",
