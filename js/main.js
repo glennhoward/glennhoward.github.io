@@ -6,12 +6,19 @@ $.getJSON('data/data.json', function(data) {
     var workTemplate = $('#workTpl').html();
     var footerTemplate = $('#footerTpl').html();
 
-    var headerHtml = Mustache.to_html(headerTemplate, data);
-    var contentHtml = Mustache.to_html(contentTemplate, data);
-    var aboutHtml = Mustache.to_html(aboutTemplate, data);
-    var eduHtml = Mustache.to_html(eduTemplate, data);
-    var workHtml = Mustache.to_html(workTemplate, data);
-    var footerHtml = Mustache.to_html(footerTemplate, data);
+    Mustache.parse(headerTemplate);
+    Mustache.parse(contentTemplate);
+    Mustache.parse(aboutTemplate);
+    Mustache.parse(eduTemplate);
+    Mustache.parse(workTemplate);
+    Mustache.parse(footerTemplate);
+
+    var headerHtml = Mustache.render(headerTemplate, data);
+    var contentHtml = Mustache.render(contentTemplate, data);
+    var aboutHtml = Mustache.render(aboutTemplate, data);
+    var eduHtml = Mustache.render(eduTemplate, data);
+    var workHtml = Mustache.render(workTemplate, data);
+    var footerHtml = Mustache.render(footerTemplate, data);
 
     $('#header').html(headerHtml);
     $('#content').html(contentHtml);
