@@ -5,7 +5,7 @@
   <meta content="utf-8" http-equiv="encoding">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>::Glenn Howard :: Front-end Developer ::</title>
+  <title>::Glenn Howard :: Mozillian :: Front-end Developer ::</title>
 
   <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, handheld" />
   <link rel="stylesheet" type="text/css" href="css/enhanced.css" media="screen  and (min-width: 40.5em)" />
@@ -14,9 +14,9 @@
   <![endif]-->
 </head>
 <body>
-  <div id="header"></div>
-  <div id="content"></div>
-  <div id="footer"></div>
+  <header id="header"></header>
+  <main id="content"></main>
+  <footer id="footer"></footer>
 
 
   <script src="js/libs/jquery-1.9.1.js"></script>
@@ -25,13 +25,15 @@
 
   <!-- Start of Header Template    -->
   <script id="headerTpl" type="text/template">
-    {{#sections}}
-      <nav class="header">
-        <ul>
+    <nav class="header-item">
+    <div class="hero-bg">
+      <ul>
+        {{#sections}}
           <li>{{{name}}}</li>
-        </ul>
-      </nav>
-    {{/sections}}
+        {{/sections}}
+      </ul>
+      </div>
+    </nav>
   </script>
 
   <!-- Start of Content Template    -->
@@ -96,14 +98,21 @@
   <!-- Start of Where I've Worked Template    -->
   <script id="workTpl" type="text/template">
     {{#employers}}
-      <strong>{{companyName}}</strong>, {{position}} - {{duration}}
+    <div class="employer">
+      <strong>{{companyName}}</strong>, {{position}} - {{duration}}<br />
+      {{^hideDetailsLink}}
+        <a class="tasks-toggle" href="#">More details...</a>
+      {{/hideDetailsLink}}
+      <div class="tasks">
       {{#tasks}}
         <ul>
           <li>
-            {{item}}
+            {{{item}}}
           </li>
         </ul>
       {{/tasks}}
+      </div>
+    </div>
     {{/employers}}
   </script>
   <!-- End of Where I've Worked Template    -->

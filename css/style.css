@@ -2,3 +2,11 @@
 html, body {
     margin: 20px;
 }
+
+.tasks-toggle {
+  text-decoration: none;
+}
+
+.tasks {
+  display: none;
+}

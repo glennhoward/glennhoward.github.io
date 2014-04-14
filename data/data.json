@@ -146,12 +146,14 @@
     {
       "companyName":"Microsoft",
       "position":"Senior Test Engineer",
-      "duration":"June 2000 to June 2001"
+      "duration":"June 2000 to June 2001",
+      "hideDetailsLink":true
     },
     {
       "companyName":"Microsoft",
       "position":"Release Team Member",
-      "duration":"June 1999 to September 1999"
+      "duration":"June 1999 to September 1999",
+      "hideDetailsLink":true
     }
   ],
 
