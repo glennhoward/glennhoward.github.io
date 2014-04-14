@@ -4,9 +4,5 @@ html, body {
 }
 
 .tasks-toggle {
-  text-decoration: none;
-}
-
-.tasks {
   display: none;
 }
