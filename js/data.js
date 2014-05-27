@@ -28,9 +28,3 @@ $.getJSON('data/data.json', function(data) {
   $('#employment').html(workHtml);
   $('#footer').html(footerHtml);
 });
-
-$( document ).ready(function() {
-  $(".tasks-toggle").click(function(){
-    $(this).siblings('.tasks').slideToggle('fast')
-  });
-});
