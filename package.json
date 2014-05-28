@@ -12,12 +12,11 @@
   },
   "homepage": "https://github.com/glennhoward/resume",
   "dependencies": {
-    "ember": "~0.9",
     "grunt": "~0.4.1",
     "grunt-contrib-watch": "~0.5.3",
-    "handlebars": "1.x.x",
     "jquery": "2.1.x",
-    "less": "1.x.x"
+    "less": "1.x.x",
+    "mustache": "0.8.x"
   }
 
 }
