@@ -30,11 +30,6 @@ body, .page-header {
   margin-left: 10px;
 }
 
-/*.nav {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}*/
-
 .name-pic {
   margin-bottom: 20px;
 }
@@ -48,3 +43,11 @@ body, .page-header {
   width: 90px;
   height: 90px;
 }
+
+/*.page-header {
+  background-image: url(img/moz-stat.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}*/
