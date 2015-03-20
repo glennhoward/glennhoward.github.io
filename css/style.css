@@ -25,3 +25,7 @@ body, .page-header {
   width: 90px;
   height: 90px;
 }
+
+.content {
+  width: 900px;
+}

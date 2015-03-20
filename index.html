@@ -43,7 +43,7 @@
 </div>
 
   <script type="text/x-handlebars" id="about">
-    <div class="about-content">
+    <div class="content">
       {{#each}}
         <p>{{para}}<p>
       {{/each}}
@@ -53,52 +53,60 @@
   </script>
 
   <script type="text/x-handlebars" id="study">
-    {{#each}}
-      <h4>{{uniName}} - {{course}}, {{gradYear}}</h4>
-      <ul>
-        <li>{{fyProject}}</li>
-      </ul>
-    {{/each}}
+    <div class="content">
+      {{#each}}
+        <h4>{{uniName}} - {{course}}, {{gradYear}}</h4>
+        <ul>
+          <li>{{fyProject}}</li>
+        </ul>
+      {{/each}}
 
-    {{outlet}}
+      {{outlet}}
+    </div>
   </script>
 
   <script type="text/x-handlebars" id="jobs">
-    <div class="row">
-      <div class="col-md-4">
-        {{#each}}
-          <ul>
-            <li>{{#link-to 'job' this}}{{position}} @ {{companyName}}{{/link-to}}</li>
-          </ul>
-        {{/each}}
+    <div class="content">
+      <div class="row">
+        <div class="col-md-4">
+          {{#each}}
+            <ul>
+              <li>{{#link-to 'job' this}}{{position}} @ {{companyName}}{{/link-to}}</li>
+            </ul>
+          {{/each}}
+        </div>
+        <div class="col-md-8">{{outlet}}</div>
       </div>
-      <div class="col-md-8">{{outlet}}</div>
     </div>
   </script>
 
   <script type="text/x-handlebars" id="job">
-  <h4>{{companyName}}, {{position}}</h4>
-  <h5>{{duration}}</h5>
-  {{#each tasks}}
-    <ul>
-      <li>{{item}}</li>
-    </ul>
-  {{/each}}
+    <div class="content">
+      <h4>{{companyName}}, {{position}}</h4>
+      <h5>{{duration}}</h5>
+      {{#each tasks}}
+        <ul>
+          <li>{{item}}</li>
+        </ul>
+      {{/each}}
+    </div>
   </script>
 
   <script type="text/x-handlebars" id="code">
-    <ul class="list-group">
-      <li class="list-group-item">My CV using Ember.js and JSON for the data (this site!)
-        - <a href="http://glennhoward.github.io/emberMyCV" target="_blank"> View Source</a></li>
-      <li class="list-group-item">JS App using jQuery and Moment.js to countdown to a babies due date
-      - <a href="http://glennhoward.github.io/countdown" target="_blank"> View App</a></li>
-      <li class="list-group-item">JS Widget of Gilt.com Shop By Age which I coded
-      - <a href="http://glennhoward.github.io/shopbyage" target="_blank"> View App</a></li>
-      <li class="list-group-item">Java code to reverse a list
-      - <a href="http://glennhoward.github.io/stacks" target="_blank"> View Source</a></li>
-      <li class="list-group-item">C# program that diffs 2 files
-      - <a href="http://glennhoward.github.io/diffTool" target="_blank"> View Source</a></li>
-    </ul>
+    <div class="content">
+      <ul class="list-group">
+        <li class="list-group-item">My CV using Ember.js and JSON for the data (this site!)
+          - <a href="http://glennhoward.github.io/emberMyCV" target="_blank"> View Source</a></li>
+        <li class="list-group-item">JS App using jQuery and Moment.js to countdown to a babies due date
+        - <a href="http://glennhoward.github.io/countdown" target="_blank"> View App</a></li>
+        <li class="list-group-item">JS Widget of Gilt.com Shop By Age which I coded
+        - <a href="http://glennhoward.github.io/shopbyage" target="_blank"> View App</a></li>
+        <li class="list-group-item">Java code to reverse a list
+        - <a href="http://glennhoward.github.io/stacks" target="_blank"> View Source</a></li>
+        <li class="list-group-item">C# program that diffs 2 files
+        - <a href="http://glennhoward.github.io/diffTool" target="_blank"> View Source</a></li>
+      </ul>
+    </div>
   </script>
 
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -111,9 +119,10 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-57362044-1', 'auto');
+    ga('create', 'UA-60991583-1', 'auto');
     ga('require', 'displayfeatures');
     ga('send', 'pageview');
+  </script>
 
   </script>
 </body>
