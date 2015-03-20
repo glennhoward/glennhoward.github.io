@@ -1,13 +1,5 @@
 {
 
-  "contact": [
-    {
-      "address":"Dublin, Ireland",
-      "email":"glennrphoward {{at}} gmail {{dot}} com",
-      "mobile":"+353 86 1228781"
-    }
-  ],
-
   "about": [
     { "para":"I’m an experienced Software Engineer, with experiences designing and developing full stack applications and RESTful web services, using Java, Scala, MongoDB throughout mixed with JavaScript, jQuery on the front-end." },
     { "para":"I’ve also developed large amounts test automation (Unit, UI, Back-end, API) using a combination of PHP, Java, Python, WebDriver API, Scala and custom frameworks based around TestNG and JUnit which also hook into databases (MongoDB, Couchbase, DynamoDB, MySQL) to ensure the integrity and quality of the data used within the systems in test." },
