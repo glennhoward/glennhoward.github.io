@@ -1,16 +1,39 @@
-/* Put your CSS here */
-.ember-application {
+@media (min-width: 640px) {
+  .ember-application {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .ember-application {
     margin: 20px;
+  }
+}
+
+@media (max-width: 990px) {
+  .img-circle {
+    float: left !important;
+  }
+
+  .contact-details {
+    margin: 10px;
+  }
+}
+
+.content {
+  width: 75%;
 }
 
 body, .page-header {
   margin-left: 10px;
 }
 
-.nav {
+/*.nav {
   margin-top: 20px;
   margin-bottom: 20px;
-}
+}*/
 
 .name-pic {
   margin-bottom: 20px;
@@ -24,8 +47,4 @@ body, .page-header {
   float: right;
   width: 90px;
   height: 90px;
-}
-
-.content {
-  width: 900px;
 }
