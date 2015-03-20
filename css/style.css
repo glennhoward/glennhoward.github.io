@@ -22,8 +22,8 @@
   }
 }
 
-.content {
-  width: 75%;
+.col-sm-9 {
+  width: 100% !important;
 }
 
 body, .page-header {
