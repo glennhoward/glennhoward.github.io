@@ -1,18 +1,19 @@
 {
 
-  "sections": [
-    { "name":"About Me" },
-    { "name":"Where I&apos;ve Studied" },
-    { "name":"Where I&apos;ve Worked" }
+  "contact": [
+    {
+      "address":"Dublin, Ireland",
+      "email":"glennrphoward {{at}} gmail {{dot}} com",
+      "mobile":"+353 86 1228781"
+    }
   ],
 
   "about": [
-    { "para":"I&apos;m an experienced software engineer, where I have specialized in developing and maintain the Store Platform at Gilt, using technologies such as Scala, Handlebars, Backbone, Node.js, LESS, CSS, jQuery and Javascript." },
-    { "para":"I&apos;ve also have had vast experience in writing test automation using a combination of Java, Python, WebDriver API, Scala and custom frameworks based around TestNG and JUnit." },
-    { "para":"I&apos;ve experience leading projects and managing releases, as well as managing offshore QA engineers. I&apos;ve worked within Agile and Waterfall development cycles." },
-    { "para":"I&apos;m extremely passionate about quality and ensuring that the user receives the best possible experience when using software that we provide them; I look at things from a user&apos;s point of view to help deliver on this." },
-    { "para":"I&apos;ve spent the last number of years working in quality and development roles to enable me to build a fundamental understanding of web practices and web technologies such as JavaScript. This learning has also enabled me to identify complex problems and solve this with creative solutions. I&apos;ve created a lot of security patches to Gilt.com to ensure user safety." },
-    { "para":"I&apos;ve experience leading multiple projects at once such as the engineering effort of Microsoft Office for Mac 2008 SP2 and the release of the monthly patch release of Microsoft Office 2004." }
+    { "para":"I'm an experienced Software Engineer, with experiences designing and developing full stack applications and RESTful web services, using Java, Scala, MongoDB throughout mixed with JavaScript, jQuery, Handlebars, Backbone, Node.js, LESS, CSS on the front-end." },
+    { "para":"I've also developed large amounts test automation (Unit, UI, Back-end, API) using a combination of PHP, Java, Python, WebDriver API, Scala and custom frameworks based around TestNG and JUnit, which also hook into databases (MongoDB, Couchbase, DynamoDB, MySQL) to ensure the integrity and quality of the data used within the systems in test." },
+    { "para":"I'm extremely passionate about quality and ensuring that the user receives the best possible experience when using software that we provide them; I look at things from a user's point of view to help deliver on this." },
+    { "para":"I've spent the last number of years working in quality and development roles to enable me to build a fundamental understanding of web practices and web technologies such as jQuery, HTML5 and JavaScript." },
+    { "para":"This learning has also enabled me to identify complex problems and solve this with creative solutions; I've created a lot of security patches to Gilt.com to ensure user safety." }
   ],
 
   "education": [
@@ -32,35 +33,50 @@
 
   "employers": [
     {
+      "id":"1",
       "companyName":"Sohalo Inc.",
       "position":"Senior QA Engineer",
-      "duration":"December 2013 to Present",
+      "duration":"December 2013 to present",
       "tasks": [
         { "item":"Implemented an automation framework to test the Sohalo API’s on a daily basis in Jenkins." },
-        { "item":"Expanded (planned and implemented) the aforementioned framework to run Selenium tests." },
-        { "item":"Integrated the php-webdriver bindings to replace the PHPUnit Selenium Extension, which contains better functionality and more flexibility." },
-        { "item":"Currently in the planning phase of implementing Test-Driven Development in the Software Development Life Cycle." }
+        { "item":"Designed, implemented and maintain a WebDriver framework to test Sohalo’s front-end apps." },
+        { "item":"Introduced and run weekly QA automation sprint planning meetings." },
+        { "item":"Champion QA across the organization, raising issues and suggesting best practices to implement." }
       ]
     },
     {
+      "id":"2",
+      "companyName":"Mozilla",
+      "position":"Community Lead for WebQA Wiki-Test project",
+      "duration":"September 2014 to present",
+      "tasks": [
+        { "item":"Work on wiki-test automation issues and encourage community contributors to take on issues." },
+        { "item":"Review automation xfails (on purpose test failures due to bugs) on a monthly basis and action as required." },
+        { "item":"Attend project meetings, keep wider WebQA team up-to-date on wiki progress and plan for required work tasks." },
+        { "item":"Help build the community via IRC and blog posts about the project, new features and update." }
+      ]
+    },
+    {
+      "id":"3",
       "companyName":"Mozilla",
       "position":"Contributor to WebQA",
-      "duration":"February 2012 to February 2014",
+      "duration":"February 2012 to present",
       "tasks": [
-        { "item":"Was owner of the WebQA Wiki Test suite." },
+        { "item":"Current owner of the WebQA Wiki Test suite." },
         { "item":"Restructured the wiki project to match other WebQA project structures." },
         { "item":"Develop automated tests for the WebQA Wiki site, https://github.com/mozilla/wiki-tests/." },
         { "item":"Update and review documentation on the Mozilla QMO site." }
       ]
     },
     {
+      "id":"4",
       "companyName":"Gilt Groupe",
       "position":"Software Engineer",
       "duration":"July 2011 to December 2013",
       "tasks": [
         { "item":"Planning and implementing new ways to drive traffic through the different stores applications on Gilt.com." },
-        { "item":"Implementing end-to-end features on Gilt.com such as the Shop By Age widget on the Kids store front." },
-        { "item":"Develop and maintain the existing store platform." },
+        { "item":"Implementing full stack features on Gilt.com such as the Shop By Age widget on the Kids storefront, menu navigation improvement and security fixes." },
+        { "item":"Drove down the number of security tickets opened against the Gilt website by using intuitive software fixes" },
         { "item":"Automated testing of the store platform in the form of unit tests or front-end selenium tests." },
         { "item":"Drove the automation pass rate from ~60% on 1 environment to over 90% across 3 environments (Local, Grid & Sauce)." },
         { "item":"Investigate and fix any automation failures for the Business Operations project using innovative solutions. I recently implemented a new way to test our web services." },
@@ -70,6 +86,7 @@
       ]
     },
     {
+      "id":"5",
       "companyName":"NewBay",
       "position":"Senior Test Engineer",
       "duration":"December 2010 to July 2011",
@@ -80,6 +97,7 @@
       ]
     },
     {
+      "id":"6",
       "companyName":"Sage CRM",
       "position":"QA Engineer",
       "duration":"February 2010 to December 2010",
@@ -92,8 +110,9 @@
       ]
     },
     {
+      "id":"7",
       "companyName":"Microsoft",
-      "position":"International Project Engineer (Software Engineer)",
+      "position":"Software Engineer",
       "duration":"December 2006 to February 2010",
       "tasks": [
         { "item":"Owned and drove Excel for Mac for the MacBU from a localization engineering perspective." },
@@ -107,6 +126,7 @@
       ]
     },
     {
+      "id":"8",
       "companyName":"Microsoft",
       "position":"Software Test/Localization Engineer",
       "duration":"March 2006 to December 2006",
@@ -121,8 +141,9 @@
       ]
     },
     {
+      "id":"9",
       "companyName":"Vodafone",
-      "position":"Product & Services Developer (Web Developer)",
+      "position":"Software Engineer",
       "duration":"March 2003 to March 2006",
       "tasks": [
         { "item":"Developed web solutions (including creating graphics) from Marketing approved requests for Vodafone websites (Internal &amp; External)."},
@@ -133,6 +154,7 @@
       ]
     },
     {
+      "id":"10",
       "companyName":"Vodafone",
       "position":"Customer Service Representative",
       "duration":"July 2002 to March 2003",
@@ -144,24 +166,16 @@
       ]
     },
     {
+      "id":"11",
       "companyName":"Microsoft",
       "position":"Senior Test Engineer",
-      "duration":"June 2000 to June 2001",
-      "hideDetailsLink":true
+      "duration":"June 2000 to June 2001"
     },
     {
+      "id":"12",
       "companyName":"Microsoft",
       "position":"Release Team Member",
-      "duration":"June 1999 to September 1999",
-      "hideDetailsLink":true
-    }
-  ],
-
-  "footer": [
-    {
-      "copyright":"&copy;2014 - Glenn Howard",
-      "email":"<a href=\"mailto:glennrphoward@gmail.com\">glennrphoward@gmail.com</a>",
-      "phone":"<a href=\"tel:+353861228781\">+353 86 1228781</a>"
+      "duration":"June 1999 to September 1999"
     }
   ]
 }

@@ -1,135 +1,117 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-  <meta content="utf-8" http-equiv="encoding">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>::Glenn Howard :: Software Engineer ::</title>
-
-  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, handheld" />
-  <link rel="stylesheet" type="text/css" href="css/enhanced.css" media="screen  and (min-width: 40.5em)" />
-  <!--[if (lt IE 9)&(!IEMobile)]>
-    <link rel="stylesheet" type="text/css" href="css/enhanced.css" />
-  <![endif]-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>:: Glenn Howard ::</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header id="header"></header>
-  <main id="content"></main>
-  <footer id="footer"></footer>
-
-  <script src="js/lib/jquery.min.js"></script>
-  <script src="js/lib/mustache.js"></script>
-  <script src="js/data.js"></script>
-
-  <!-- Start of Header Template    -->
-  <script id="headerTpl" type="text/template">
-    <nav class="header-item">
-    <div class="hero-bg">
-      <ul>
-        {{#sections}}
-          <li>{{{name}}}</li>
-        {{/sections}}
-      </ul>
-      </div>
-    </nav>
-  </script>
-
-  <!-- Start of Content Template    -->
-  <script id="contentTpl" type="text/template">
-    <article class="intro"></article>
-
-    <article class="aboutme">
-      <div class="container">
-        <div class="title">
-          <h4>{{sections.0.name}}</h4>
+  <div class="container-fluid">
+  <script type="text/x-handlebars">
+    <div class="row">
+      <div class="col-sm-9">
+        <div class="page-header">
+          <div class="row name-pic">
+            <div class="col-xs-12 col-md-8"><h2>Glenn Howard</h2></div>
+            <div class="col-xs-6 col-md-4"><img src="img/glenn-howard.png" alt="Image of Me" class="img-circle me"></div>
+          </div>
+          <div class="row contact-details">
+            <div class="col-xs-8 col-sm-6">
+              <h5>Dublin, Ireland</h5>
+            </div>
+            <div class="col-xs-4 col-sm-6 contact-email-phone">
+              <h5>glennrphoward [at] gmail [dot] com :: +353 86 1228781</h5>
+            </div>
+          </div>
         </div>
-        <div id="aboutme"></div>
-      </div>
-    </article>
-
-    <article class="education">
-      <div class="container">
-        <div class="title">
-          <h4>{{{sections.1.name}}}</h4>
-        </div>
-        <div id="education">
-        </div>
-      </div>
-    </article>
-
-    <article class="employment">
-      <div class="container">
-        <div class="title">
-          <h4>{{{sections.2.name}}}</h4>
-        </div>
-        <div id="employment">
-        </div>
-      </div>
-    </article>
-  </script>
-  <!-- End of Content Template    -->
-
-
-  <!-- Start of About Me Template    -->
-  <script id="aboutTpl" type="text/template">
-    {{#about}}
-      {{{para}}}
-    {{/about}}
-  </script>
-  <!-- End of About Me Template    -->
-
-
-  <!-- Start of Where I've Studied Template    -->
-  <script id="educationTpl" type="text/template">
-    {{#education}}
-      {{uniName}} - {{course}}, {{gradYear}}
-      <ul>
-        <li>
-          {{fyProject}}
-        </li>
-      </ul>
-    {{/education}}
-  </script>
-  <!-- End of Where I've Studied Template    -->
-
-
-  <!-- Start of Where I've Worked Template    -->
-  <script id="workTpl" type="text/template">
-    {{#employers}}
-    <div class="employer">
-      <strong>{{companyName}}</strong>, {{position}} - {{duration}}<br />
-      {{^hideDetailsLink}}
-        <a class="tasks-toggle" href="#a">More details...</a>
-      {{/hideDetailsLink}}
-      <div class="tasks">
-      {{#tasks}}
-        <ul>
-          <li>
-            {{{item}}}
-          </li>
-        </ul>
-      {{/tasks}}
       </div>
     </div>
-    {{/employers}}
-  </script>
-  <!-- End of Where I've Worked Template    -->
+    <ul class="nav nav-pills">
+      <li role="presentation">{{#link-to 'about'}}About Me{{/link-to}}</li>
+      <li role="presentation">{{#link-to 'study'}}Where I&apos;ve Studied{{/link-to}}</li>
+      <li role="presentation">{{#link-to 'jobs'}}Where I&apos;ve Worked{{/link-to}}</li>
+      <li role="presentation">{{#link-to 'code'}}Examples of my code{{/link-to}}</li>
+    </ul>
 
-  <!-- Start of Footer Template    -->
-  <script id="footerTpl" type="text/template">
-    <nav class="footer">
-      {{#footer}}
-      <div class="copyright">{{{copyright}}}</div>
-      <div class="contact-details">
-        &#9993; {{{email}}}
-        &#9743; {{{phone}}}
+    {{outlet}}
+
+  </script>
+</div>
+
+  <script type="text/x-handlebars" id="about">
+    {{#each}}
+      <p>{{para}}<p>
+    {{/each}}
+
+    {{outlet}}
+  </script>
+
+  <script type="text/x-handlebars" id="study">
+    {{#each}}
+      <h4>{{uniName}} - {{course}}, {{gradYear}}</h4>
+      <ul>
+        <li>{{fyProject}}</li>
+      </ul>
+    {{/each}}
+
+    {{outlet}}
+  </script>
+
+  <script type="text/x-handlebars" id="jobs">
+    <div class="row">
+      <div class="col-md-4">
+        {{#each}}
+          <ul>
+            <li>{{#link-to 'job' this}}{{position}} @ {{companyName}}{{/link-to}}</li>
+          </ul>
+        {{/each}}
       </div>
-      {{/footer}}
-    </nav>
+      <div class="col-md-8">{{outlet}}</div>
+    </div>
   </script>
-  <!-- End of Footer Template    -->
 
-  <script src="js/details.js"></script>
+  <script type="text/x-handlebars" id="job">
+  <h4>{{companyName}}, {{position}}</h4>
+  <h5>{{duration}}</h5>
+  {{#each tasks}}
+    <ul>
+      <li>{{item}}</li>
+    </ul>
+  {{/each}}
+  </script>
+
+  <script type="text/x-handlebars" id="code">
+    <ul class="list-group">
+      <li class="list-group-item">My CV using Ember.js and JSON for the data (this site!)
+        - <a href="http://www.route212.org/emberMyCV" target="_blank"> View Source</a></li>
+      <li class="list-group-item">JS App using jQuery and Moment.js to countdown to a babies due date
+      - <a href="http://route212.org/countdown" target="_blank"> View App</a></li>
+      <li class="list-group-item">JS Widget of Gilt.com Shop By Age which I coded
+      - <a href="http://route212.org/shopbyage" target="_blank"> View App</a></li>
+      <li class="list-group-item">Java code to reverse a list
+      - <a href="http://route212.org/stacks" target="_blank"> View Source</a></li>
+      <li class="list-group-item">C# program that diffs 2 files
+      - <a href="http://route212.org/diffTool" target="_blank"> View Source</a></li>
+    </ul>
+  </script>
+
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.0-beta.4/ember.min.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-57362044-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+
+  </script>
 </body>
 </html>

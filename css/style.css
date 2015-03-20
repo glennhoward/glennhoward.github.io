@@ -1,8 +1,27 @@
 /* Put your CSS here */
-html, body {
+.ember-application {
     margin: 20px;
 }
 
-.tasks-toggle {
-  display: none;
+body, .page-header {
+  margin-left: 10px;
+}
+
+.nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.name-pic {
+  margin-bottom: 20px;
+}
+
+.contact-email-phone {
+  text-align: right;
+}
+
+.me {
+  float: right;
+  width: 90px;
+  height: 90px;
 }
