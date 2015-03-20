@@ -9,11 +9,10 @@
   ],
 
   "about": [
-    { "para":"I'm an experienced Software Engineer, with experiences designing and developing full stack applications and RESTful web services, using Java, Scala, MongoDB throughout mixed with JavaScript, jQuery, Handlebars, Backbone, Node.js, LESS, CSS on the front-end." },
-    { "para":"I've also developed large amounts test automation (Unit, UI, Back-end, API) using a combination of PHP, Java, Python, WebDriver API, Scala and custom frameworks based around TestNG and JUnit, which also hook into databases (MongoDB, Couchbase, DynamoDB, MySQL) to ensure the integrity and quality of the data used within the systems in test." },
-    { "para":"I'm extremely passionate about quality and ensuring that the user receives the best possible experience when using software that we provide them; I look at things from a user's point of view to help deliver on this." },
-    { "para":"I've spent the last number of years working in quality and development roles to enable me to build a fundamental understanding of web practices and web technologies such as jQuery, HTML5 and JavaScript." },
-    { "para":"This learning has also enabled me to identify complex problems and solve this with creative solutions; I've created a lot of security patches to Gilt.com to ensure user safety." }
+    { "para":"I’m an experienced Software Engineer, with experiences designing and developing full stack applications and RESTful web services, using Java, Scala, MongoDB throughout mixed with JavaScript, jQuery on the front-end." },
+    { "para":"I’ve also developed large amounts test automation (Unit, UI, Back-end, API) using a combination of PHP, Java, Python, WebDriver API, Scala and custom frameworks based around TestNG and JUnit which also hook into databases (MongoDB, Couchbase, DynamoDB, MySQL) to ensure the integrity and quality of the data used within the systems in test." },
+    { "para":"I’m extremely passionate about quality and ensuring that the user receives the best possible experience when using software that we provide them; I look at things from a user’s point of view to help deliver on this. I’ve spent the last number of years working in quality and development roles to enable me to build a fundamental understanding of web practices and web technologies such as jQuery, Node.js, HTML5 and JavaScript. This learning has also enabled me to identify complex problems and solve this with creative solutions; I’ve created a lot of security patches to Gilt.com to ensure user safety." },
+    { "para":"I’ve experience leading multiple projects at once such as the engineering effort of Microsoft Office for Mac 2008 SP2 and the release of the monthly patch release of Microsoft Office 2004. Having worked in fast paced environments, such as Gilt, along with these skills and with the skills I've acquired in recent roles would enable me to hit to ground running." }
   ],
 
   "education": [
@@ -35,13 +34,13 @@
     {
       "id":"1",
       "companyName":"Sohalo Inc.",
-      "position":"Senior QA Engineer",
+      "position":"Senior Software Engineer",
       "duration":"December 2013 to present",
       "tasks": [
-        { "item":"Implemented an automation framework to test the Sohalo API’s on a daily basis in Jenkins." },
-        { "item":"Designed, implemented and maintain a WebDriver framework to test Sohalo’s front-end apps." },
+        { "item":"Designed, implemented a Unit Test and WebDriver frameworks to test Sohalo’s code base." },
         { "item":"Introduced and run weekly QA automation sprint planning meetings." },
-        { "item":"Champion QA across the organization, raising issues and suggesting best practices to implement." }
+        { "item":"Champion QA across the organization, raising issues and suggesting best practices to implement." },
+        { "item":"Produce coding deliverables, on time and to agreed requirements."}
       ]
     },
     {
