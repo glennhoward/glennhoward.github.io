@@ -43,9 +43,11 @@
 </div>
 
   <script type="text/x-handlebars" id="about">
-    {{#each}}
-      <p>{{para}}<p>
-    {{/each}}
+    <div class="about-content">
+      {{#each}}
+        <p>{{para}}<p>
+      {{/each}}
+    </div>
 
     {{outlet}}
   </script>
