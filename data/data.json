@@ -1,12 +1,12 @@
 {
 
   "about": [
-    { "para":"I’m an experienced Software Engineer, with experiences delivering elegant and innovative full stack solutions and services, looking to formalise my move in Program Management." },
-{ "para":"I’ve shipped high scale applications so know what is needed and required. This would enable me to transfer my technical knowledge over into the Program Management function and deliver a high quality consumer experiences reliably within a fast paced agile environment. I’m extremely passionate about quality and ensuring that the user receives the best possible experience when using software that we provide them; I look at things from a user’s point of view to help deliver on this." },
-{ "para":"I’ve experience leading multiple projects at once, such as the engineering effort of Microsoft Office for Mac 2008 SP2 and the releases of the monthly patch of Microsoft Office 2004, which enables me to working collaboratively with my team and key partner teams on a global scale." },
-{ "para":"I’ve managed the localization of the microsoft.com marketing sites which involved collaborating with external localizers, managing schedules, working with the Sub PM’s to review the sites, co-coordinating the testing of the localized sites and tracking bugs." },
-{ "para":"I’ve spent the last number of years working in fast paced environments, in a number of quality and development roles to enable me to solve tough problems and build a fundamental understanding of web practices and web technologies. This learning has also enabled me to identify complex problems and solve this with creative innovative solutions." },
-{ "para":"Having worked in fast paced environments, such as Gilt and contributing at Mozilla, and with the skills I've acquired in all those roles, I feel I would be able to hit to ground running and make a real impact." }
+    { "para":"I’m an experienced Software Engineer, with experiences delivering elegant and innovative full stack solutions and services, looking to formalise my move in Product Management." },
+    { "para":"I’ve shipped high scale applications so know what is needed and required. This would enable me to transfer my technical knowledge over into the Product Management function and deliver a high quality consumer experiences reliably within a fast paced agile environment. I’m extremely passionate about quality and ensuring that the user receives the best possible experience when using software that we provide them; I look at things from a user’s point of view to help deliver on this." },
+    { "para":"I’ve experience leading multiple projects at once, such as the engineering effort of Microsoft Office for Mac 2008 SP2 and the releases of the monthly patch of Microsoft Office 2004, which enables me to working collaboratively with my team and key partner teams on a global scale." },
+    { "para":"I’ve managed the localization of the Encarta microsoft.com marketing sites which involved collaborating with external localizers, managing schedules, working with the Sub PM’s to review the sites, co-coordinating the testing of the localized sites and tracking bugs." },
+    { "para":"I’ve spent the last number of years working in fast paced environments, in a number of quality and development roles to enable me to solve tough problems and build a fundamental understanding of web practices, mobile platforms and web technologies. This learning has also enabled me to identify complex problems and solve this with creative innovative solutions." },
+    { "para":"Having worked in fast paced environments, such as Gilt and contributing at Mozilla, and with the skills I've acquired in all those roles, I feel I would be able to hit to ground running and make a real impact." }
   ],
 
   "education": [
@@ -14,13 +14,16 @@
       "uniName":"Trinity College Dublin",
       "course":"BSc. Computer Science",
       "gradYear":"2007",
-      "fyProject": "Dynamic Web Pages - I created a RSS web system using PHP and MySQL to allow lecturers and student interactive on important course information like lecture changes, assignment date changes etc."
+      "fyProject": "Final Year Project: Dynamic Web Pages - I created a RSS web system using PHP and MySQL to allow lecturers and student interactive on important course information like lecture changes, assignment date changes etc."
     },
     {
       "uniName":"Dublin Institute of Technology",
       "course":"Diploma in Computer Science",
       "gradYear":"2003",
-      "fyProject": "Inventory Tracking System - I created an inventory system using ASP and SQL to allow companies keep track of hardware, software and allow management to create reports on inventory levels."
+      "fyProject": "Final Year Project: Inventory Tracking System - I created an inventory system using ASP and SQL to allow companies keep track of hardware, software and allow management to create reports on inventory levels.",
+      "activities": [
+          { "item":"Activities: I was President of the DIT Kevin St Rugby Club. This role involved liaising with inter-DIT staff and students. I also brought in sponsorship deals (kits and entertainment) with Ericsson, Heineken, Planet Murphy & Palace Nightclub and the Redbox."}
+        ]
     }
   ],
 
