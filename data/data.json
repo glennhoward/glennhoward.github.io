@@ -34,7 +34,7 @@
       "position":"Senior Software Engineer",
       "duration":"December 2013 to present",
       "tasks": [
-        { "item":"Designed, implemented a Unit Test and WebDriver frameworks to test Sohalo’s code base." },
+        { "item":"Designed, implemented our Unit Test and WebDriver frameworks to test Sohalo’s code base." },
         { "item":"Introduced and run weekly QA automation sprint planning meetings." },
         { "item":"Champion QA across the organization, raising issues and suggesting best practices to implement." },
         { "item":"Create Feature tickets (including mock-ups) with improvements based off requirements and UX."},
@@ -71,14 +71,14 @@
       "position":"Software Engineer",
       "duration":"July 2011 to December 2013",
       "tasks": [
-        { "item":"Planning and implementing new ways to drive traffic through the different stores applications on Gilt.com." },
-        { "item":"Implementing full stack features on Gilt.com such as the Shop By Age widget on the Kids storefront, menu navigation improvement and security fixes." },
+        { "item":"Planned and implemented new ways to drive traffic through the different stores applications on Gilt.com." },
+        { "item":"Implemented full stack features on Gilt.com such as the Shop By Age widget on the Kids storefront, menu navigation improvement and security fixes." },
         { "item":"Drove down the number of security tickets opened against the Gilt website by using intuitive software fixes" },
         { "item":"Automated testing of the store platform in the form of unit tests or front-end selenium tests." },
         { "item":"Drove the automation pass rate from ~60% on 1 environment to over 90% across 3 environments (Local, Grid & Sauce)." },
-        { "item":"Investigate and fix any automation failures for the Business Operations project using innovative solutions. I recently implemented a new way to test our web services." },
-        { "item":"Manage the Business Operations project releases on a bi-weekly basis, which involves managing off-site QA engineers." },
-        { "item":"Assist team members with automation queries and best practices. I’m also a Mentor in the Gilt Mentoring program." },
+        { "item":"Investigated and fixed any automation failures for the Business Operations project using innovative solutions. I recently implemented a new way to test our web services." },
+        { "item":"Managed the Business Operations project releases on a bi-weekly basis, which involves managing off-site QA engineers." },
+        { "item":"Assisted team members with automation queries and best practices. I’m also a Mentor in the Gilt Mentoring program." },
         { "item":"Continued development of automated tests for the Business Operations team, which required very quick turnaround." }
       ]
     },
